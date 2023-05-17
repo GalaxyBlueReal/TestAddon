@@ -1,0 +1,10 @@
+local addon = {}
+addon.Name = "Test"
+addon.Version = 1
+addon.AutoUpdate = true
+addon.AddonGithub = "https://raw.githubusercontent.com/GalaxyBlueReal/TestAddon/main/"
+addon.Main = function()
+    print("Addon loaded/executed! Always Up-To-Date Via Github!")
+    return {Yes = function() print("Yes gaming") end}
+end
+return addon
