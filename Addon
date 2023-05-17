@@ -1,6 +1,6 @@
 local addon = {}
 addon.Name = "Test"
-addon.Version = 1
+addon.Version = 1.2
 addon.AutoUpdate = true
 addon.AddonGithub = "https://raw.githubusercontent.com/GalaxyBlueReal/TestAddon/main/"
 addon.Main = function()
